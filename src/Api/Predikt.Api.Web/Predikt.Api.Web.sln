@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Predikt.Api.Web", "Predikt.Api.Web\Predikt.Api.Web.csproj", "{D9650BA7-B466-488B-BF1F-E3CF69605864}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{70E761C7-80D5-4831-9386-D97CABB68186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Predikt.Contract", "..\..\Contract\Predikt.Contract\Predikt.Contract.csproj", "{F5F7550A-F831-45DF-B8F6-D67748DD83E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3EFC385B-9493-4728-857F-D33870394276}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Predikt.Api.Web.Tests", "..\Tests\Predikt.Api.Web.Tests\Predikt.Api.Web.Tests.csproj", "{9EF3807C-D099-4BFA-8747-9300079BD3D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Predikt.Api.Web.IntegrationTests", "..\Tests\Predikt.Api.Web.IntegrationTests\Predikt.Api.Web.IntegrationTests.csproj", "{904F218B-2CE5-4B90-BAC7-B0752549DD71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Development", "Development", "{74616A85-D536-4334-A9CA-41F58B9D2955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predikt.FakeDb", "..\Development\Predikt.FakeDb\Predikt.FakeDb.csproj", "{06EC8D53-A4F2-4883-B047-6C089E97BEF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9650BA7-B466-488B-BF1F-E3CF69605864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9650BA7-B466-488B-BF1F-E3CF69605864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9650BA7-B466-488B-BF1F-E3CF69605864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9650BA7-B466-488B-BF1F-E3CF69605864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F7550A-F831-45DF-B8F6-D67748DD83E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F7550A-F831-45DF-B8F6-D67748DD83E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F7550A-F831-45DF-B8F6-D67748DD83E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F7550A-F831-45DF-B8F6-D67748DD83E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF3807C-D099-4BFA-8747-9300079BD3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF3807C-D099-4BFA-8747-9300079BD3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF3807C-D099-4BFA-8747-9300079BD3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF3807C-D099-4BFA-8747-9300079BD3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904F218B-2CE5-4B90-BAC7-B0752549DD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904F218B-2CE5-4B90-BAC7-B0752549DD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904F218B-2CE5-4B90-BAC7-B0752549DD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904F218B-2CE5-4B90-BAC7-B0752549DD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EC8D53-A4F2-4883-B047-6C089E97BEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EC8D53-A4F2-4883-B047-6C089E97BEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EC8D53-A4F2-4883-B047-6C089E97BEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EC8D53-A4F2-4883-B047-6C089E97BEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5F7550A-F831-45DF-B8F6-D67748DD83E5} = {70E761C7-80D5-4831-9386-D97CABB68186}
+		{9EF3807C-D099-4BFA-8747-9300079BD3D6} = {3EFC385B-9493-4728-857F-D33870394276}
+		{904F218B-2CE5-4B90-BAC7-B0752549DD71} = {3EFC385B-9493-4728-857F-D33870394276}
+		{06EC8D53-A4F2-4883-B047-6C089E97BEF7} = {74616A85-D536-4334-A9CA-41F58B9D2955}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92652284-098D-4009-99FB-26DAEDBD44C8}
+	EndGlobalSection
+EndGlobal
